@@ -1,0 +1,14 @@
+{
+  "Docker Images": [
+{"ID_image": "8ca4688f4f35", "Repository": "alpine", "Tag": "latest", "Size": "7.33MB"}
+,
+{"ID_image": "a416a98b71e2", "Repository": "busybox", "Tag": "latest", "Size": "4.26MB"}
+  ],
+  "Docker Containers": [
+{"ID_container": "93f5310023f0", "ID_img": "busybox", "Created": "2023-10-12 00:40:47 +0200 CEST", "Status": "Exited (0) 24 hours ago"}
+,
+{"ID_container": "d838665ad1a9", "ID_img": "busybox", "Created": "2023-10-12 00:40:45 +0200 CEST", "Status": "Exited (0) 24 hours ago"}
+,
+{"ID_container": "417a04a8f4f6", "ID_img": "8ca4688f4f35", "Created": "2023-10-11 23:59:20 +0200 CEST", "Status": "Exited (0) 25 hours ago"}
+  ]
+}

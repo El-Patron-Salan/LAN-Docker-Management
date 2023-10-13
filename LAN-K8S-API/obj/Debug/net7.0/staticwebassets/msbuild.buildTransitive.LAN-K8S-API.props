@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/LAN-K8S-API.props" />
+</Project>

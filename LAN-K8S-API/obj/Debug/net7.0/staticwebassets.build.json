@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cPo7QKlnHVMyLk2+Zp5Re+N2eexXLp4HuHlM6B7MJzw=",
+  "Source": "LAN-K8S-API",
+  "BasePath": "_content/LAN-K8S-API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

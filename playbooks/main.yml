@@ -1,0 +1,13 @@
+---
+- name: Transfer docker_info.json to remote server
+  hosts: 10.10.0.15
+  become: yes
+  tasks:
+    - name: Generate current date
+      set_fact:
+        current_date: "{{ lookup('pipe', 'date +%Y-%m-%d_%H-%M') }}"
+    
+    - name: Transfer docker_info.json
+      copy:
+        src: ../docker_info.json
+        dest: /opt/logs/docker_info_{{ current_date }}.json
